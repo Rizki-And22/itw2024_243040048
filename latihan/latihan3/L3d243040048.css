@@ -1,0 +1,48 @@
+h3 {
+  text-align: center;
+}
+a {
+  color: aliceblue;
+}
+
+html {
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: 1900px 300px;
+}
+h4 {
+  text-align: center;
+}
+h1 {
+  font-family: "comic sans ms";
+  color: darkblue;
+  font-size: 60px;
+  text-align: center;
+}
+body {
+  font-family: Georgia;
+}
+#satu {
+  text-align: center;
+  color: burlywood;
+}
+#dua {
+  text-align: right;
+  line-height: 2;
+}
+#anang {
+  color: red;
+}
+#anang:hover {
+  color: red;
+}
+#iki {
+  text-decoration: none;
+}
+#iki:hover {
+  color: white;
+  background-color: blue;
+}
+#iki {
+  color: blue;
+}

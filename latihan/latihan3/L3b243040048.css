@@ -1,0 +1,28 @@
+h3 {
+  a {
+    color: aliceblue;
+  }
+}
+html {
+  background-color: aqua;
+}
+h4 {
+  text-align: right;
+}
+h1 {
+  font-family: "comic sans ms";
+  color: darkblue;
+  font-size: 60px;
+  text-align: center;
+}
+body {
+  font-family: Georgia;
+}
+#satu {
+  text-align: center;
+  color: burlywood;
+}
+#dua {
+  text-align: right;
+  line-height: 2;
+}

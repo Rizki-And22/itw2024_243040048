@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Merch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="modified.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">My Car Shop</h2>
+                <p class="sub-heading">BMW & Another Car</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 250jt</h4>
+                <p class="item">BMW Blue</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 150jt</h4>
+                <p class="item">BMW White</p>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">Car Shop</div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"></div>
+                <h3>BMW</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, ex.
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Ferrari</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, ex.
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Mustang</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, ex.
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Toyota</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, ex.
+                </p>
+            </div>
+    </div>
+    </section>
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="img/gambar1.jpg" alt="">
+        <img src="img/gambar2.jpg" alt="">
+        <img src="img/gambar3.jpg" alt="">
+        <img src="img/gambar4.jpg" alt="">
+        <img src="img/gambar5.jpg" alt="">
+        <img src="img/gambar6.jpg" alt="">
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+
+</html>
